@@ -10,9 +10,10 @@ edition = "2018"
 readme = "README.md"
 
 [dependencies.slack_api]
-version = "0.23.1"
 default-features = false
 features = ["reqwest_blocking"]
+git = "https://github.com/silverjam/slack-rs-api.git"
+rev = "f83651e4165898a8429ddf2086066526df77fe41"
 
 [dependencies]
 serde = "1.0.0"
